@@ -34,7 +34,7 @@ public class Main {
         double measure = 53.234567;
 
         System.out.println("Products:");
-        System.out.println(productOne.toString());
+        System.out.println(productOne);
         System.out.println(productTwo.name + ", " + "whose price is $" + productTwo.price);
         System.out.println("Record: " + age + " years old, code " + code + " and gender F");
         System.out.printf("Measure with eight decimal places: %.8f%n", measure);
