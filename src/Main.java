@@ -17,16 +17,8 @@ public class Main {
 
 
 //        String manipulation exercise - now with classes
-        Product productOne = new Product();
-        productOne.quantity = 1;
-        productOne.price = 2100;
-        productOne.name = "Computer";
-
-        Product productTwo = new Product();
-        productTwo.quantity = 1;
-        productTwo.price = 650.50;
-        productTwo.name = "Office desk";
-
+        Product productOne = new Product("Computer", 2100.0, 1);
+        Product productTwo = new Product("Office Desk", 650.50, 1);
 
         int age = 30;
         int code = 5290;
@@ -35,7 +27,7 @@ public class Main {
 
         System.out.println("Products:");
         System.out.println(productOne);
-        System.out.println(productTwo.name + ", " + "whose price is $" + productTwo.price);
+        System.out.println(productTwo);
         System.out.println("Record: " + age + " years old, code " + code + " and gender F");
         System.out.printf("Measure with eight decimal places: %.8f%n", measure);
         System.out.printf("Rounded to three places: %.3f%n", measure);
