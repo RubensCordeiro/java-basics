@@ -18,11 +18,10 @@ public class Main {
 
 //        String manipulation exercise - now with classes
         Product productOne = new Product("Computer", 2100.0, 1);
+        productOne.setName("AnotherComputer");
         Product productTwo = new Product("Office Desk", 650.50, 1);
-        Product productThree = new Product("Guitar", 5000);
+        productTwo.setQuantity(1500);
         Product productFour = new Product("Piano");
-
-
 
         int age = 30;
         int code = 5290;
